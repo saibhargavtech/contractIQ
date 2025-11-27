@@ -335,10 +335,13 @@ def generate_ai_response(prompt: str, analytics_data: Dict) -> str:
                 return response
             else:
                 # If OpenAI returns empty, fall back to CSV analysis
+                st.warning("⚠️ OpenAI returned empty response, using CSV analysis")
                 return generate_simple_csv_response(prompt, df)
         except Exception as openai_error:
             # If OpenAI fails, use CSV analysis as fallback
-            print(f"[Chatbot] OpenAI error: {str(openai_error)}")
+            error_msg = str(openai_error)
+            st.warning(f"⚠️ OpenAI API error: {error_msg[:100]}... Using CSV analysis as fallback.")
+            print(f"[Chatbot] OpenAI error: {error_msg}")
             return generate_simple_csv_response(prompt, df)
         
     except Exception as e:
@@ -562,7 +565,14 @@ def generate_openai_response(prompt: str, context: str) -> str:
             current_api_key = os.getenv("OPENAI_API_KEY")
         
         if not current_api_key:
-            raise ValueError("OPENAI_API_KEY not found. Please set it in Streamlit secrets or .env file.")
+            error_msg = "OPENAI_API_KEY not found. Please set it in Streamlit secrets (for cloud) or .env file (for local)."
+            st.error(f"⚠️ {error_msg}")
+            raise ValueError(error_msg)
+        
+        # Debug: Log that we're using the API key (first 10 chars only for security)
+        if st.session_state.get('debug_mode', False):
+            st.info(f"🔑 Using OpenAI API key: {current_api_key[:10]}...")
+        
         client = OpenAI(api_key=current_api_key)
         model_name = "gpt-4"  # Use GPT-4.1 series for better quality
         

@@ -270,7 +270,6 @@ def create_page(analytics_data):
                             try:
                                 # Import from frontend/utils.py (ensure frontend directory is in path first)
                                 import sys
-                                import os
                                 frontend_dir = os.path.dirname(os.path.dirname(__file__))
                                 if frontend_dir not in sys.path:
                                     sys.path.insert(0, frontend_dir)
