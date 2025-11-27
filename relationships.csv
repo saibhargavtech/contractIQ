@@ -1,0 +1,45 @@
+source_entity,relation,target_entity,evidence,source_file,source_community,target_community
+"SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy",recognised_under,Policy,"SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy (""Policy"") is entered into on January 1, 2024, between 
+SecureGuard Insurance Group, a Delaware corporation (""Insurer""), and [Company Name], a 
+corporation organized under the laws of Delaware (""Insured"").",SECUREGUARD INSURANCE POLICY.pdf,1,1
+COUNTERPARTY DETAILS,governed_by,Company Name,"**COUNTERPARTY DETAILS:**  
+- Company Name: SecureGuard Insurance Group  
+- Address: 777 Insurance Tower, 20th Floor, Wilmington, DE 19801  
+- Phone: (302) 555 -7890  
+- Email: underwriting@secureguard.com  
+- Website: www.secureguard.com  
+- Tax ID: 55 -6677889  
+- DUNS Number: 321654987  
+- Contact Person: Robert Thompson, Senior Underwriter  
+- Legal Entity: Delaware Corporation  
+- Established: 2012  
+- State Registration: 11223344  
+- NAIC Number: 12345  
+ 
+1.",SECUREGUARD INSURANCE POLICY.pdf,3,3
+"TERM  
+This Policy",recognised_under,January,"TERM  
+This Policy shall be effective from January 1, 2024, through January 1, 2025, with automatic 
+renewal for additional one -year periods unless terminated by either party with thirty (30) 
+days written notice.",SECUREGUARD INSURANCE POLICY.pdf,4,4
+PREMIUM AND PAYMENT,recognised_under,Total Policy Value,"PREMIUM AND PAYMENT  
+3.1 Total Policy Value: The total policy value is Four Hundred Fifty Thousand Dollars 
+($450,000) USD.",SECUREGUARD INSURANCE POLICY.pdf,7,7
+"COMPLIANCE  
+SecureGuard",recognised_under,GDPR,"COMPLIANCE  
+SecureGuard shall maintain compliance with insurance regulations, GDPR, and state 
+insurance requirements throughout the term of this Policy.",SECUREGUARD INSURANCE POLICY.pdf,0,0
+"ESG REPORTING  
+SecureGuard",governed_by,ESG,"ESG REPORTING  
+SecureGuard shall provide annual ESG disclosure reports detailing environmental impact and 
+social responsibility initiatives.",SECUREGUARD INSURANCE POLICY.pdf,2,2
+This Agreement shall be,governed_by,"the laws of the State of Delaware, United States","GOVERNING LAW  
+This Agreement shall be governed by the laws of the State of Delaware, United States.",SECUREGUARD INSURANCE POLICY.pdf,5,5
+"GOVERNING LAW  
+This Agreement",governed_by,State,"GOVERNING LAW  
+This Agreement shall be governed by the laws of the State of Delaware, United States.",SECUREGUARD INSURANCE POLICY.pdf,6,6
+WITNESS WHEREOF,recognised_under,Policy,"IN WITNESS WHEREOF, the parties have executed this Policy.",SECUREGUARD INSURANCE POLICY.pdf,1,1

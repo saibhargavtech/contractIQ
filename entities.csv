@@ -1,0 +1,24 @@
+entity,community,in_degree,out_degree,total_degree
+"SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy",1,0,1,1
+Policy,1,2,0,2
+COUNTERPARTY DETAILS,3,0,1,1
+Company Name,3,1,0,1
+"TERM  
+This Policy",4,0,1,1
+January,4,1,0,1
+PREMIUM AND PAYMENT,7,0,1,1
+Total Policy Value,7,1,0,1
+"COMPLIANCE  
+SecureGuard",0,0,1,1
+GDPR,0,1,0,1
+"ESG REPORTING  
+SecureGuard",2,0,1,1
+ESG,2,1,0,1
+This Agreement shall be,5,0,1,1
+"the laws of the State of Delaware, United States",5,1,0,1
+"GOVERNING LAW  
+This Agreement",6,0,1,1
+State,6,1,0,1
+WITNESS WHEREOF,1,0,1,1

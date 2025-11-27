@@ -1,0 +1,48 @@
+GRAPH CONTEXT MEMORY
+
+[Cluster 0] Label: Theme / Risk
+[Cluster 0] Summary: This cluster groups 2 entities with dense links among Agreement, CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT  
+ 
+This Cloud Services Agreement. Theme inferred from connectivity and relation evidence.
+[Cluster 0] Key entities: Agreement, CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT  
+ 
+This Cloud Services Agreement
+[Cluster 0] Rel: CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT  
+ 
+This Cloud Services Agreement —[governed_by]→ Agreement; Ev: CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT  
+ 
+This Cloud Services Agreement ("Agreement") is entered into on June 1, 2024, between 
+CloudMax Infrastructure Inc., a Texas corporation ("CloudMax"), and [Company Name], a…
+
+[Cluster 1] Label: Theme / Risk
+[Cluster 1] Summary: This cluster groups 2 entities with dense links among GOVERNING LAW  
+This Agreement, State. Theme inferred from connectivity and relation evidence.
+[Cluster 1] Key entities: GOVERNING LAW  
+This Agreement, State
+[Cluster 1] Rel: GOVERNING LAW  
+This Agreement —[governed_by]→ State; Ev: GOVERNING LAW  
+This Agreement shall be governed by the laws of the State of Texas, United States.
+
+[Cluster 2] Label: Theme / Risk
+[Cluster 2] Summary: This cluster groups 2 entities with dense links among the laws of the State of Texas, United States, This Agreement shall be. Theme inferred from connectivity and relation evidence.
+[Cluster 2] Key entities: the laws of the State of Texas, United States, This Agreement shall be
+[Cluster 2] Rel: This Agreement shall be —[governed_by]→ the laws of the State of Texas, United States; Ev: GOVERNING LAW  
+This Agreement shall be governed by the laws of the State of Texas, United States.
+
+[Cluster 3] Label: Theme / Risk
+[Cluster 3] Summary: This cluster groups 2 entities with dense links among Cloud Computing Boulevard, Address. Theme inferred from connectivity and relation evidence.
+[Cluster 3] Key entities: Cloud Computing Boulevard, Address
+[Cluster 3] Rel: Address —[governed_by]→ Cloud Computing Boulevard; Ev: - Address: 5678 Cloud Computing Boulevard, Austin, TX 78701  
+- Phone: (512) 555 -9876  
+- Email: legal@cloudmax.com  
+- Website: www.cloudmax.com  
+- Tax ID: 98 -7654321  
+- DUNS Number: 456789123  
+- Contact Person: Da…
+
+[Cluster 4] Label: Theme / Risk
+[Cluster 4] Summary: This cluster groups 2 entities with dense links among Total Contract Value, PRICING AND PAYMENT. Theme inferred from connectivity and relation evidence.
+[Cluster 4] Key entities: Total Contract Value, PRICING AND PAYMENT
+[Cluster 4] Rel: PRICING AND PAYMENT —[governed_by]→ Total Contract Value; Ev: PRICING AND PAYMENT  
+3.1 Total Contract Value: The total contract value is Three Million Two Hundred Thousand 
+Dollars ($3,200,000) USD.

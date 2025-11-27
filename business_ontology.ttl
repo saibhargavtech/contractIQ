@@ -1,0 +1,66 @@
+@prefix ex: <http://example.org/kg/> .
+@prefix onto: <http://example.org/onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ex:ASC_606 a onto:Standard ;
+    skos:prefLabel "ASC 606" .
+
+ex:ASC_842 a onto:Standard ;
+    skos:prefLabel "ASC 842" .
+
+<http://example.org/onto> a owl:Ontology ;
+    rdfs:label "Business Ontology for GraphRAG"@en .
+
+onto:auditedBy a owl:ObjectProperty ;
+    rdfs:label "audited by"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:coOccursInSentence a owl:ObjectProperty ;
+    rdfs:label "co-occurs in sentence"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:evidencedBy a owl:ObjectProperty ;
+    rdfs:label "evidenced by"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:governedBy a owl:ObjectProperty ;
+    rdfs:label "governed by"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:hasObligation a owl:ObjectProperty ;
+    rdfs:label "has obligation"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:involvesCounterparty a owl:ObjectProperty ;
+    rdfs:label "involves counterparty"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:linkedTo a owl:ObjectProperty ;
+    rdfs:label "linked to"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Entity .
+
+onto:mapsToStandard a owl:ObjectProperty ;
+    rdfs:label "maps to standard"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Standard .
+
+onto:recognisedUnder a owl:ObjectProperty ;
+    rdfs:label "recognised under"@en ;
+    rdfs:domain onto:Entity ;
+    rdfs:range onto:Standard .
+
+onto:Standard a owl:Class ;
+    rdfs:label "Standard"@en .
+
+onto:Entity a owl:Class ;
+    rdfs:label "Entity"@en .
+

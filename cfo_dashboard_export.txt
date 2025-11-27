@@ -1,0 +1,101 @@
+# ENTITIES (CSV)
+entity,community,in_degree,out_degree,total_degree
+"SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy",1,0,1,1
+Policy,1,2,0,2
+COUNTERPARTY DETAILS,3,0,1,1
+Company Name,3,1,0,1
+"TERM  
+This Policy",4,0,1,1
+January,4,1,0,1
+PREMIUM AND PAYMENT,7,0,1,1
+Total Policy Value,7,1,0,1
+"COMPLIANCE  
+SecureGuard",0,0,1,1
+GDPR,0,1,0,1
+"ESG REPORTING  
+SecureGuard",2,0,1,1
+ESG,2,1,0,1
+This Agreement shall be,5,0,1,1
+"the laws of the State of Delaware, United States",5,1,0,1
+"GOVERNING LAW  
+This Agreement",6,0,1,1
+State,6,1,0,1
+WITNESS WHEREOF,1,0,1,1
+
+# RELATIONSHIPS (CSV)
+source_entity,relation,target_entity,evidence,source_file,source_community,target_community
+"SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy",recognised_under,Policy,"SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy (""Policy"") is entered into on January 1, 2024, between 
+SecureGuard Insurance Group, a Delaware corporation (""Insurer""), and [Company Name], a 
+corporation organized under the laws of Delaware (""Insured"").",SECUREGUARD INSURANCE POLICY.pdf,1,1
+COUNTERPARTY DETAILS,governed_by,Company Name,"**COUNTERPARTY DETAILS:**  
+- Company Name: SecureGuard Insurance Group  
+- Address: 777 Insurance Tower, 20th Floor, Wilmington, DE 19801  
+- Phone: (302) 555 -7890  
+- Email: underwriting@secureguard.com  
+- Website: www.secureguard.com  
+- Tax ID: 55 -6677889  
+- DUNS Number: 321654987  
+- Contact Person: Robert Thompson, Senior Underwriter  
+- Legal Entity: Delaware Corporation  
+- Established: 2012  
+- State Registration: 11223344  
+- NAIC Number: 12345  
+ 
+1.",SECUREGUARD INSURANCE POLICY.pdf,3,3
+"TERM  
+This Policy",recognised_under,January,"TERM  
+This Policy shall be effective from January 1, 2024, through January 1, 2025, with automatic 
+renewal for additional one -year periods unless terminated by either party with thirty (30) 
+days written notice.",SECUREGUARD INSURANCE POLICY.pdf,4,4
+PREMIUM AND PAYMENT,recognised_under,Total Policy Value,"PREMIUM AND PAYMENT  
+3.1 Total Policy Value: The total policy value is Four Hundred Fifty Thousand Dollars 
+($450,000) USD.",SECUREGUARD INSURANCE POLICY.pdf,7,7
+"COMPLIANCE  
+SecureGuard",recognised_under,GDPR,"COMPLIANCE  
+SecureGuard shall maintain compliance with insurance regulations, GDPR, and state 
+insurance requirements throughout the term of this Policy.",SECUREGUARD INSURANCE POLICY.pdf,0,0
+"ESG REPORTING  
+SecureGuard",governed_by,ESG,"ESG REPORTING  
+SecureGuard shall provide annual ESG disclosure reports detailing environmental impact and 
+social responsibility initiatives.",SECUREGUARD INSURANCE POLICY.pdf,2,2
+This Agreement shall be,governed_by,"the laws of the State of Delaware, United States","GOVERNING LAW  
+This Agreement shall be governed by the laws of the State of Delaware, United States.",SECUREGUARD INSURANCE POLICY.pdf,5,5
+"GOVERNING LAW  
+This Agreement",governed_by,State,"GOVERNING LAW  
+This Agreement shall be governed by the laws of the State of Delaware, United States.",SECUREGUARD INSURANCE POLICY.pdf,6,6
+WITNESS WHEREOF,recognised_under,Policy,"IN WITNESS WHEREOF, the parties have executed this Policy.",SECUREGUARD INSURANCE POLICY.pdf,1,1
+
+# CLUSTERS (CSV)
+cluster_id,kpi_risk_label,cluster_summary,node_count,edge_count,top_entities,sample_relations
+0,Theme / Risk,"This cluster groups 2 entities with dense links among COMPLIANCE  
+SecureGuard, GDPR. Theme inferred from connectivity and relation evidence.",2,1,"COMPLIANCE  
+SecureGuard; GDPR","COMPLIANCE  
+SecureGuard[recognised_under]→GDPR"
+1,Theme / Risk,"This cluster groups 3 entities with dense links among Policy, SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy, WITNESS WHEREOF. Theme inferred from connectivity and relation evidence.",3,2,"Policy; SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy; WITNESS WHEREOF","SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy[recognised_under]→Policy; WITNESS WHEREOF[recognised_under]→Policy"
+2,Theme / Risk,"This cluster groups 2 entities with dense links among ESG REPORTING  
+SecureGuard, ESG. Theme inferred from connectivity and relation evidence.",2,1,"ESG REPORTING  
+SecureGuard; ESG","ESG REPORTING  
+SecureGuard[governed_by]→ESG"
+3,Theme / Risk,"This cluster groups 2 entities with dense links among COUNTERPARTY DETAILS, Company Name. Theme inferred from connectivity and relation evidence.",2,1,COUNTERPARTY DETAILS; Company Name,COUNTERPARTY DETAILS[governed_by]→Company Name
+4,Theme / Risk,"This cluster groups 2 entities with dense links among January, TERM  
+This Policy. Theme inferred from connectivity and relation evidence.",2,1,"January; TERM  
+This Policy","TERM  
+This Policy[recognised_under]→January"
+5,Theme / Risk,"This cluster groups 2 entities with dense links among This Agreement shall be, the laws of the State of Delaware, United States. Theme inferred from connectivity and relation evidence.",2,1,"This Agreement shall be; the laws of the State of Delaware, United States","This Agreement shall be[governed_by]→the laws of the State of Delaware, United States"
+6,Theme / Risk,"This cluster groups 2 entities with dense links among GOVERNING LAW  
+This Agreement, State. Theme inferred from connectivity and relation evidence.",2,1,"GOVERNING LAW  
+This Agreement; State","GOVERNING LAW  
+This Agreement[governed_by]→State"
+7,Theme / Risk,"This cluster groups 2 entities with dense links among Total Policy Value, PREMIUM AND PAYMENT. Theme inferred from connectivity and relation evidence.",2,1,Total Policy Value; PREMIUM AND PAYMENT,PREMIUM AND PAYMENT[recognised_under]→Total Policy Value

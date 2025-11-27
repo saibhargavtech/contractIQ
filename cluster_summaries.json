@@ -1,0 +1,22 @@
+{
+  "0": {
+    "Cluster Summary": "This cluster groups 2 entities with dense links among Agreement, CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT  \n \nThis Cloud Services Agreement. Theme inferred from connectivity and relation evidence.",
+    "KPI/Risk Label": "Theme / Risk"
+  },
+  "3": {
+    "Cluster Summary": "This cluster groups 2 entities with dense links among Cloud Computing Boulevard, Address. Theme inferred from connectivity and relation evidence.",
+    "KPI/Risk Label": "Theme / Risk"
+  },
+  "4": {
+    "Cluster Summary": "This cluster groups 2 entities with dense links among Total Contract Value, PRICING AND PAYMENT. Theme inferred from connectivity and relation evidence.",
+    "KPI/Risk Label": "Theme / Risk"
+  },
+  "2": {
+    "Cluster Summary": "This cluster groups 2 entities with dense links among the laws of the State of Texas, United States, This Agreement shall be. Theme inferred from connectivity and relation evidence.",
+    "KPI/Risk Label": "Theme / Risk"
+  },
+  "1": {
+    "Cluster Summary": "This cluster groups 2 entities with dense links among GOVERNING LAW  \nThis Agreement, State. Theme inferred from connectivity and relation evidence.",
+    "KPI/Risk Label": "Theme / Risk"
+  }
+}

@@ -1,0 +1,46 @@
+contract_id,type,counterparty,start_date,end_date,status,total_value_usd,annual_commitment_usd,escalation,payment_terms,variable_costs,sla_uptime,sla_response_critical,sla_resolution_critical,sla_penalty,compliance,esg_reporting,termination,governing_law,arbitration,summary,source_file,extraction_date,extraction_status
+C-1000,SaaS Licensing,IBM India Pvt Ltd.,2022-04-22,2028-05-06,Terminated,11460901,2292180,3% YoY,Net 60,,99.5%,30 min,4 hrs,5% penalty per missed critical resolution,"FCPA, GDPR, CCPA, India DPA 2023",Annual (GRI aligned),90 days mutual notice required,US,Arbitration India,,,,
+C-1001,Service Outsourcing,Alpha Manufacturing Ltd.,2021-02-19,2026-12-31,Active,5970944,1194188,2% YoY,Net 45,Performance bonus structure,99.99%,30 min,4 hrs,2% fee credit per 0.1% drop,"SOC2, PCI DSS, UK Bribery Act",None required,90 days mutual notice required,UK,ICC Singapore,,,,
+C-1002,IP Licensing,Alpha Manufacturing Ltd.,2020-03-26,2023-12-27,Renewed,5372747,767535,2% YoY,Net 45,,99.9%,30 min,4 hrs,2% fee credit per 0.1% drop,"FCPA, India DPA 2023, HIPAA, SOC2, CCPA",Carbon Disclosure only,30 days cure for cause; 120 days convenience,UK,ICC Singapore,,,,
+C-1003,Insurance,HCL Technologies,2020-10-03,2026-08-15,Active,1340853,335213,3% YoY,Net 30,Performance bonus structure,99.5%,30 min,4 hrs,5% penalty per missed critical resolution,"HIPAA, SOC2, UK Bribery Act, ISO 27001",Annual (GRI aligned),Immediate termination for SLA breach,Singapore,Arbitration India,,,,
+C-1004,Insurance,Infosys Ltd.,2020-03-14,2026-11-30,Active,620477,88639,3% YoY,Net 45,2% overage on usage,99.99%,30 min,4 hrs,2% fee credit per 0.1% drop,"GDPR, SOC2, India DPA 2023, PCI DSS",Carbon Disclosure only,30 days cure for cause; 120 days convenience,India,Arbitration India,,,,
+C-1274,Insurance,SecureGuard Insurance Group,2024-01-01,2025-04-15,Active,450000,450000,5% annually,Net 30,Claims processing fees,99.5%,2 hours,8 hours,2% penalty per missed SLA,"Insurance regulations, GDPR, State insurance requirements, SOX compliance",Annual ESG disclosure reports,30 days written notice,"State of Delaware, United States",Binding arbitration,"Key contract highlights as bullet points:
+- Contract Type: Insurance
+- Counterparty: SecureGuard Insurance Group
+- Total Value: $450,000 USD
+- Duration: 2024-01-01 to 2025-01-01
+- Payment Structure: Net 30
+- Key SLAs: Response time - 24 hours, Resolution time - 72 hours
+- Compliance Requirements: Insurance regulations, GDPR, State insurance requirements
+- Termination Terms: 30 days written notice
+- Risk Factors: Not specified
+- Additional Highlights: Automatic renewal for additional one-year periods unless terminated",SECUREGUARD INSURANCE POLICY.pdf,2025-10-07T19:39:41.214559,Success
+C-F9A1,Not specified,Not specified,2024-01-01,2025-01-01,Active,0,0,Not specified,Not specified,,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,"- Contract extracted from: Global IT Managed Services Agreement.docx
+- Default template applied due to extraction failure
+- Please review contract manually for accuracy",Global IT Managed Services Agreement.docx,2025-11-27T15:58:02.127201,Failed - using defaults
+C-18E4,Not specified,Not specified,2024-01-01,2025-01-01,Active,0,0,Not specified,Not specified,,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,"- Contract extracted from: GLOBALTECH SERVICES IT INFRASTRUCTURE AGREEMENT.pdf
+- Default template applied due to extraction failure
+- Please review contract manually for accuracy",GLOBALTECH SERVICES IT INFRASTRUCTURE AGREEMENT.pdf,2025-11-27T16:03:09.835933,Failed - using defaults
+C-9CB3,Not specified,Not specified,2024-01-01,2025-01-01,Active,0,0,Not specified,Not specified,,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,"- Contract extracted from: SECUREGUARD INSURANCE POLICY.pdf
+- Default template applied due to extraction failure
+- Please review contract manually for accuracy",SECUREGUARD INSURANCE POLICY.pdf,2025-11-27T16:46:48.720835,Failed - using defaults
+C-CA43,Not specified,Not specified,2024-01-01,2025-01-01,Active,0,0,Not specified,Not specified,,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,"- Contract extracted from: SECUREGUARD INSURANCE POLICY.pdf
+- Default template applied due to extraction failure
+- Please review contract manually for accuracy",SECUREGUARD INSURANCE POLICY.pdf,2025-11-27T16:54:16.953703,Failed - using defaults
+C-3DFA,Not specified,Not specified,2024-01-01,2025-01-01,Active,0,0,Not specified,Not specified,,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,"- Contract extracted from: CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT.pdf
+- Default template applied due to extraction failure
+- Please review contract manually for accuracy",CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT.pdf,2025-11-27T16:54:21.742194,Failed - using defaults
+C-67DB,Not specified,Not specified,2024-01-01,2025-01-01,Active,0,0,Not specified,Not specified,,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,Not specified,"- Contract extracted from: CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT.pdf
+- Default template applied due to extraction failure
+- Please review contract manually for accuracy",CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT.pdf,2025-11-27T17:36:30.449123,Failed - using defaults
+Not specified,Cloud Services Agreement,[Company Name],2024-06-01,2025-06-01,Active,3200000,3200000,Not specified,Net 30,Additional charges apply for pay -per-use cloud services beyond the committed amount.,99.99%,15 minutes,2 hours,Not specified,"SOC2 Type II, PCI DSS, GDPR",Annual carbon footprint reports detailing energy consumption and sustainability initiatives.,"This Agreement shall commence on June 1, 2024, and continue until June 1, 2025, with automatic renewal for additional one -year periods unless terminated by either party with thirty (30) days written notice.","State of Texas, United States",Any disputes shall be resolved through binding arbitration.,"Key contract highlights as bullet points:
+- Contract Type: Cloud Services Agreement
+- Counterparty: [Company Name]
+- Total Value: $3,200,000
+- Duration: 2024-06-01 to 2025-06-01
+- Payment Structure: Net 30
+- Key SLAs: 99.99% uptime, 15 minutes response time, 2 hours resolution time
+- Compliance Requirements: SOC2 Type II, PCI DSS, GDPR
+- Termination Terms: 30 days written notice
+- Risk Factors: Not specified
+- Additional Highlights: Automatic renewal for additional one -year periods",CLOUDMAX INFRASTRUCTURE SERVICES AGREEMENT.pdf,2025-11-27T18:09:41.923914,Success

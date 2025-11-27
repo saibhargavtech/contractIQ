@@ -1,0 +1,360 @@
+[
+  {
+    "@id": "http://example.org/onto/Standard",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/cfo#Risk",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/evidence_4_0",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Resource"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Payment terms distribution: {'Net 45': 3, 'Net 30': 2, 'Net 60': 1}"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "Contract Financial Data"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/kpi_0_total_value",
+    "@type": [
+      "http://example.org/cfo#KPI"
+    ],
+    "http://example.org/cfo#value": [
+      {
+        "@value": "25215922"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "total_value"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/kpi_4_payment_terms_distribution",
+    "@type": [
+      "http://example.org/cfo#KPI"
+    ],
+    "http://example.org/cfo#value": [
+      {
+        "@value": "{'Net 45': 3, 'Net 30': 2, 'Net 60': 1}"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "payment_terms_distribution"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/cfo_insight_4",
+    "@type": [
+      "http://example.org/cfo#CFOInsight"
+    ],
+    "http://example.org/cfo#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.7
+      }
+    ],
+    "http://example.org/cfo#evidencedBy": [
+      {
+        "@id": "http://example.org/kg/evidence_4_0"
+      }
+    ],
+    "http://example.org/cfo#hasKPI": [
+      {
+        "@id": "http://example.org/kg/kpi_4_payment_terms_distribution"
+      }
+    ],
+    "http://example.org/cfo#insight": [
+      {
+        "@value": "The provided data does not specify the average payment term across contracts. However, the distribution of payment terms is as follows: 'Net 45': 3 contracts, 'Net 30': 2 contracts, 'Net 60': 1 contract."
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "What is the average payment term (days payable/receivable) across contracts?"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Cash Flow & Working Capital"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/kpi_1_annual_commitment",
+    "@type": [
+      "http://example.org/cfo#KPI"
+    ],
+    "http://example.org/cfo#value": [
+      {
+        "@value": "5127755"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "annual_commitment"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/onto/Entity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/cfo#CFOInsight",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/evidence_2_0",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Resource"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "IBM India Pvt Ltd. contract value: $11,460,901.00 USD"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "Contract Financial Data"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/cfo_insight_3",
+    "@type": [
+      "http://example.org/cfo#CFOInsight"
+    ],
+    "http://example.org/cfo#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.0
+      }
+    ],
+    "http://example.org/cfo#insight": [
+      {
+        "@value": "The provided data does not contain specific information about contract clauses related to penalties, liquidated damages, or termination risks."
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Are there clauses exposing the company to penalties, liquidated damages, or termination risks?"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Risk & Compliance"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/evidence_0_0",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Resource"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Total contract value: $25,215,922.00 USD"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "Contract Financial Data"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/cfo_insight_2",
+    "@type": [
+      "http://example.org/cfo#CFOInsight"
+    ],
+    "http://example.org/cfo#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 1.0
+      }
+    ],
+    "http://example.org/cfo#evidencedBy": [
+      {
+        "@id": "http://example.org/kg/evidence_2_0"
+      }
+    ],
+    "http://example.org/cfo#hasKPI": [
+      {
+        "@id": "http://example.org/kg/kpi_2_top_vendor"
+      },
+      {
+        "@id": "http://example.org/kg/kpi_2_top_vendor_contract_value"
+      }
+    ],
+    "http://example.org/cfo#insight": [
+      {
+        "@value": "IBM India Pvt Ltd. represents the top contractual spend with a contract value of $11,460,901.00 USD, which is more than 10% of the total contract value."
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Which vendors/customers represent the top 10% of our contractual spend or revenue?"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Financial Exposure & Obligations"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/cfo#KPI",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/cfo_insight_0",
+    "@type": [
+      "http://example.org/cfo#CFOInsight"
+    ],
+    "http://example.org/cfo#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 0.7
+      }
+    ],
+    "http://example.org/cfo#evidencedBy": [
+      {
+        "@id": "http://example.org/kg/evidence_0_0"
+      }
+    ],
+    "http://example.org/cfo#hasKPI": [
+      {
+        "@id": "http://example.org/kg/kpi_0_total_value"
+      }
+    ],
+    "http://example.org/cfo#insight": [
+      {
+        "@value": "The total value of active contracts is not broken down by business unit and geography in the provided data. However, the total contract value across all contracts is $25,215,922.00 USD."
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "What is the total value of active contracts by business unit and geography?"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Financial Exposure & Obligations"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/kpi_2_top_vendor_contract_value",
+    "@type": [
+      "http://example.org/cfo#KPI"
+    ],
+    "http://example.org/cfo#value": [
+      {
+        "@value": "11460901"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "top_vendor_contract_value"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/evidence_1_0",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Resource"
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "Annual commitment: $5,127,755.00 USD"
+      }
+    ],
+    "http://purl.org/dc/terms/source": [
+      {
+        "@value": "Contract Financial Data"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/cfo#Opportunity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/cfo_insight_1",
+    "@type": [
+      "http://example.org/cfo#CFOInsight"
+    ],
+    "http://example.org/cfo#confidence": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 1.0
+      }
+    ],
+    "http://example.org/cfo#evidencedBy": [
+      {
+        "@id": "http://example.org/kg/evidence_1_0"
+      }
+    ],
+    "http://example.org/cfo#hasKPI": [
+      {
+        "@id": "http://example.org/kg/kpi_1_annual_commitment"
+      }
+    ],
+    "http://example.org/cfo#insight": [
+      {
+        "@value": "The total annual commitment across all contracts is $5,127,755.00 USD."
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "How much committed spend (future obligations) exists across all contracts?"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Financial Exposure & Obligations"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/kg/kpi_2_top_vendor",
+    "@type": [
+      "http://example.org/cfo#KPI"
+    ],
+    "http://example.org/cfo#value": [
+      {
+        "@value": "IBM India Pvt Ltd."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "top_vendor"
+      }
+    ]
+  }
+]

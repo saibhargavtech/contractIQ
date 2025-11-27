@@ -1,0 +1,27 @@
+cluster_id,kpi_risk_label,cluster_summary,node_count,edge_count,top_entities,sample_relations
+0,Theme / Risk,"This cluster groups 2 entities with dense links among COMPLIANCE  
+SecureGuard, GDPR. Theme inferred from connectivity and relation evidence.",2,1,"COMPLIANCE  
+SecureGuard; GDPR","COMPLIANCE  
+SecureGuard[recognised_under]→GDPR"
+1,Theme / Risk,"This cluster groups 3 entities with dense links among Policy, SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy, WITNESS WHEREOF. Theme inferred from connectivity and relation evidence.",3,2,"Policy; SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy; WITNESS WHEREOF","SECUREGUARD INSURANCE POLICY  
+ 
+This Cyber Liability Insurance Policy[recognised_under]→Policy; WITNESS WHEREOF[recognised_under]→Policy"
+2,Theme / Risk,"This cluster groups 2 entities with dense links among ESG REPORTING  
+SecureGuard, ESG. Theme inferred from connectivity and relation evidence.",2,1,"ESG REPORTING  
+SecureGuard; ESG","ESG REPORTING  
+SecureGuard[governed_by]→ESG"
+3,Theme / Risk,"This cluster groups 2 entities with dense links among COUNTERPARTY DETAILS, Company Name. Theme inferred from connectivity and relation evidence.",2,1,COUNTERPARTY DETAILS; Company Name,COUNTERPARTY DETAILS[governed_by]→Company Name
+4,Theme / Risk,"This cluster groups 2 entities with dense links among January, TERM  
+This Policy. Theme inferred from connectivity and relation evidence.",2,1,"January; TERM  
+This Policy","TERM  
+This Policy[recognised_under]→January"
+5,Theme / Risk,"This cluster groups 2 entities with dense links among This Agreement shall be, the laws of the State of Delaware, United States. Theme inferred from connectivity and relation evidence.",2,1,"This Agreement shall be; the laws of the State of Delaware, United States","This Agreement shall be[governed_by]→the laws of the State of Delaware, United States"
+6,Theme / Risk,"This cluster groups 2 entities with dense links among GOVERNING LAW  
+This Agreement, State. Theme inferred from connectivity and relation evidence.",2,1,"GOVERNING LAW  
+This Agreement; State","GOVERNING LAW  
+This Agreement[governed_by]→State"
+7,Theme / Risk,"This cluster groups 2 entities with dense links among Total Policy Value, PREMIUM AND PAYMENT. Theme inferred from connectivity and relation evidence.",2,1,Total Policy Value; PREMIUM AND PAYMENT,PREMIUM AND PAYMENT[recognised_under]→Total Policy Value

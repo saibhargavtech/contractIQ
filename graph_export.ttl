@@ -1,0 +1,95 @@
+@prefix cfo: <http://example.org/cfo#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/kg/> .
+@prefix onto: <http://example.org/onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cfo:Opportunity a owl:Class .
+
+cfo:Risk a owl:Class .
+
+ex:cfo_insight_0 a cfo:CFOInsight ;
+    cfo:confidence 7e-01 ;
+    cfo:evidencedBy ex:evidence_0_0 ;
+    cfo:hasKPI ex:kpi_0_total_value ;
+    cfo:insight "The total value of active contracts is not broken down by business unit and geography in the provided data. However, the total contract value across all contracts is $25,215,922.00 USD." ;
+    dct:description "What is the total value of active contracts by business unit and geography?" ;
+    dct:title "Financial Exposure & Obligations" .
+
+ex:cfo_insight_1 a cfo:CFOInsight ;
+    cfo:confidence 1e+00 ;
+    cfo:evidencedBy ex:evidence_1_0 ;
+    cfo:hasKPI ex:kpi_1_annual_commitment ;
+    cfo:insight "The total annual commitment across all contracts is $5,127,755.00 USD." ;
+    dct:description "How much committed spend (future obligations) exists across all contracts?" ;
+    dct:title "Financial Exposure & Obligations" .
+
+ex:cfo_insight_2 a cfo:CFOInsight ;
+    cfo:confidence 1e+00 ;
+    cfo:evidencedBy ex:evidence_2_0 ;
+    cfo:hasKPI ex:kpi_2_top_vendor,
+        ex:kpi_2_top_vendor_contract_value ;
+    cfo:insight "IBM India Pvt Ltd. represents the top contractual spend with a contract value of $11,460,901.00 USD, which is more than 10% of the total contract value." ;
+    dct:description "Which vendors/customers represent the top 10% of our contractual spend or revenue?" ;
+    dct:title "Financial Exposure & Obligations" .
+
+ex:cfo_insight_3 a cfo:CFOInsight ;
+    cfo:confidence 0e+00 ;
+    cfo:insight "The provided data does not contain specific information about contract clauses related to penalties, liquidated damages, or termination risks." ;
+    dct:description "Are there clauses exposing the company to penalties, liquidated damages, or termination risks?" ;
+    dct:title "Risk & Compliance" .
+
+ex:cfo_insight_4 a cfo:CFOInsight ;
+    cfo:confidence 7e-01 ;
+    cfo:evidencedBy ex:evidence_4_0 ;
+    cfo:hasKPI ex:kpi_4_payment_terms_distribution ;
+    cfo:insight "The provided data does not specify the average payment term across contracts. However, the distribution of payment terms is as follows: 'Net 45': 3 contracts, 'Net 30': 2 contracts, 'Net 60': 1 contract." ;
+    dct:description "What is the average payment term (days payable/receivable) across contracts?" ;
+    dct:title "Cash Flow & Working Capital" .
+
+onto:Entity a owl:Class .
+
+onto:Standard a owl:Class .
+
+ex:evidence_0_0 a rdfs:Resource ;
+    dct:description "Total contract value: $25,215,922.00 USD" ;
+    dct:source "Contract Financial Data" .
+
+ex:evidence_1_0 a rdfs:Resource ;
+    dct:description "Annual commitment: $5,127,755.00 USD" ;
+    dct:source "Contract Financial Data" .
+
+ex:evidence_2_0 a rdfs:Resource ;
+    dct:description "IBM India Pvt Ltd. contract value: $11,460,901.00 USD" ;
+    dct:source "Contract Financial Data" .
+
+ex:evidence_4_0 a rdfs:Resource ;
+    dct:description "Payment terms distribution: {'Net 45': 3, 'Net 30': 2, 'Net 60': 1}" ;
+    dct:source "Contract Financial Data" .
+
+ex:kpi_0_total_value a cfo:KPI ;
+    cfo:value "25215922" ;
+    dct:title "total_value" .
+
+ex:kpi_1_annual_commitment a cfo:KPI ;
+    cfo:value "5127755" ;
+    dct:title "annual_commitment" .
+
+ex:kpi_2_top_vendor a cfo:KPI ;
+    cfo:value "IBM India Pvt Ltd." ;
+    dct:title "top_vendor" .
+
+ex:kpi_2_top_vendor_contract_value a cfo:KPI ;
+    cfo:value "11460901" ;
+    dct:title "top_vendor_contract_value" .
+
+ex:kpi_4_payment_terms_distribution a cfo:KPI ;
+    cfo:value "{'Net 45': 3, 'Net 30': 2, 'Net 60': 1}" ;
+    dct:title "payment_terms_distribution" .
+
+cfo:CFOInsight a owl:Class .
+
+cfo:KPI a owl:Class .
+
